@@ -14,7 +14,7 @@ Facial recognition is required for access on subsequent runs.
 Webcam Integration: Utilizes the system's camera to detect and verify user identity.
 SQLite Database: Lightweight local database to store credentials.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Prerequisits **(IMPORTANT)**
+Prerequisites **(IMPORTANT)**
 Java JDK 23
 Webcam
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
