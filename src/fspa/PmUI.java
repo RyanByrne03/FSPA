@@ -187,7 +187,7 @@ public class PmUI extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Name and password cannot be empty.", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
-        //Give a message telling the user that their password is strong according to the suggestions
+        //Give a message telling the user that their password is weak according to the suggestions
         String suggestions = checkPasswordStrength(password);
         if (!suggestions.equals("Password is strong!")) {
             JOptionPane.showMessageDialog(this, "Suggestions:\n" + suggestions, "Weak Password", JOptionPane.WARNING_MESSAGE);
